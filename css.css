@@ -134,9 +134,9 @@ html{
     text-align: center;
     font-size: 1.55em;
     margin-top: 27px;
-    padding: 0 13px;
+    padding: 0 9px;
     line-height: 27px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .qrcode-instruction p{
