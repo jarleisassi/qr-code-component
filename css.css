@@ -122,9 +122,9 @@ html{
     border-radius: 21px;
     box-sizing: border-box;
     padding: 17px;
-	-webkit-box-shadow: 13px 13px 37px 11px rgba(0,0,0,0.14);
-	-moz-box-shadow: 13px 13px 37px 11px rgba(0,0,0,0.14);
-	box-shadow: 13px 13px 37px 11px rgba(0,0,0,0.14);
+	-webkit-box-shadow: 13px 13px 37px 11px rgba(0,0,0,0.05);
+	-moz-box-shadow: 13px 13px 37px 11px rgba(0,0,0,0.05);
+	box-shadow: 13px 13px 37px 11px rgba(0,0,0,0.05);
 
 }
 
