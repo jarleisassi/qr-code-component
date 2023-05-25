@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.background-white{
+	background-color: hsl(0, 0%, 100%);
+}
+
+.background-light-grey{
+	background-color: hsl(212, 45%, 89%);
+}
+
+.background-grayish-blue{
+	background-color: hsl(220, 15%, 55%);
+}
+
+.background-dark-blue{
+	background-color: hsl(218, 44%, 22%);
+}
+
+
+.text-white{
+	color: hsl(0, 0%, 100%);
+}
+
+.text-light-grey{
+	color: hsl(212, 45%, 89%);
+}
+
+.text-grayish-blue{
+	color: hsl(220, 15%, 55%);
+}
+
+.text-dark-blue{
+	color: hsl(218, 44%, 22%);
+}
+
+html{
+	font-size:15px;
+	font-family: Overpass;
+}
+
+.hide{
+	visibility: hidden;
+}
+
+@font-face {
+	font-family: Overpass;
+	src: url(fonts/Outfit/Outfit-VariableFont_wght.ttf);
+	font-weight: 100 1000;
+	font-dsplay: swap;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-reference{
+/*    background: url("design/desktop-design.jpg") no-repeat;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 800px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.component-container {
+    width: 319px;
+    height: 498px;
+    border-radius: 21px;
+    box-sizing: border-box;
+    padding: 17px;
+}
+
+.qrcode-image figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.qrcode-instruction h1 {
+    text-align: center;
+    font-size: 1.55em;
+    margin-top: 27px;
+    padding: 0 13px;
+    line-height: 27px;
+    font-weight: 500;
+}
+
+.qrcode-instruction p{
+    margin-top: 18px;
+    padding: 0 20px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1px;
+}
+
+
+@media screen and (max-width: 600px) {
+ 
+
+.component-container {
+    width: 317px;
+    height: 497px;
+    display: block;
+}
+
+.qrcode-instruction p{
+	margin: 0;
+	padding: 18px;
+}
+
+}
